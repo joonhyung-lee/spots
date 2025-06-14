@@ -17,15 +17,15 @@ Official Implementation of the paper ***SPOTS: Stable Placement of Objects with 
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
     <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="assets/videos/scene-kitchen-white.gif" width="100%" alt="Small Gap Dish Rack">
+        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-white.gif" width="100%" alt="Small Gap Dish Rack">
         <p><strong>Small Gap Dish Rack</strong></p>
     </div>
     <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="assets/videos/scene-kitchen-black.gif" width="100%" alt="Medium Gap Dish Rack">
+        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-black.gif" width="100%" alt="Medium Gap Dish Rack">
         <p><strong>Medium Gap Dish Rack</strong></p>
     </div>
     <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="assets/videos/scene-kitchen-small.gif" width="100%" alt="Large Gap Dish Rack">
+        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-small.gif" width="100%" alt="Large Gap Dish Rack">
         <p><strong>Large Gap Dish Rack</strong></p>
     </div>
 </div>
@@ -34,11 +34,11 @@ Official Implementation of the paper ***SPOTS: Stable Placement of Objects with 
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
     <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="assets/videos/scene-bookshelf-two-tiered.gif" width="100%" alt="Two-Tiered Bookshelf">
+        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-bookshelf-two-tiered.gif" width="100%" alt="Two-Tiered Bookshelf">
         <p><strong>Two-Tiered Bookshelf</strong></p>
     </div>
     <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="assets/videos/scene-bookshelf-three-tiered.gif" width="100%" alt="Three-Tiered Bookshelf">
+        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-bookshelf-three-tiered.gif" width="100%" alt="Three-Tiered Bookshelf">
         <p><strong>Three-Tiered Bookshelf</strong></p>
     </div>
 </div>
@@ -47,7 +47,7 @@ Official Implementation of the paper ***SPOTS: Stable Placement of Objects with 
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
     <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="assets/videos/scene-shelf-three-tiered.gif" width="100%" alt="Category">
+        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-shelf-three-tiered.gif" width="100%" alt="Category">
         <p><strong>Category</strong></p>
     </div>
 </div>
