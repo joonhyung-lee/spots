@@ -14,22 +14,22 @@ Official Implementation of the paper ***SPOTS: Stable Placement of Objects with 
 # Simulation
 
 ### Dish Rack Scene
-
-| Small Gap Dish Rack | Medium Gap Dish Rack | Large Gap Dish Rack |
-|:---:|:---:|:---:|
-| <video width="100%" controls><source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-white.mp4" type="video/mp4"></video> | <video width="100%" controls><source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-black.mp4" type="video/mp4"></video> | <video width="100%" controls><source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-small.mp4" type="video/mp4"></video> |
+<p float="left">
+    <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-white.gif" width="32%" alt="Small Gap Dish Rack"/>
+    <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-black.gif" width="32%" alt="Medium Gap Dish Rack"/>
+    <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-small.gif" width="32%" alt="Large Gap Dish Rack"/>
+</p>
 
 ### Bookshelf Scene
-
-| Two-Tiered Bookshelf | Three-Tiered Bookshelf |
-|:---:|:---:|
-| <video width="100%" controls><source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-bookshelf-two-tiered.mp4" type="video/mp4"></video> | <video width="100%" controls><source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-bookshelf-three-tiered.mp4" type="video/mp4"></video> |
+<p float="left">
+    <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-bookshelf-two-tiered.gif" width="49%" alt="Two-Tiered Bookshelf"/>
+    <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-bookshelf-three-tiered.gif" width="49%" alt="Three-Tiered Bookshelf"/>
+</p>
 
 ### Category Scene
-
-| Category |
-|:---:|
-| <video width="100%" controls><source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-shelf-three-tiered.mp4" type="video/mp4"></video> |
+<p align="center">
+    <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-shelf-three-tiered.gif" width="80%" alt="Category"/>
+</p>
 
 # Code Explanation
 We have 3 Scenarios in this repository. Each scene consists of MJCF (MuJoCo XML) files for environment configuration and Jupyter notebooks for execution.
