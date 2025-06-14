@@ -1,0 +1,49 @@
+<mujoco model="world">
+    <option impratio="10" />
+    <default>
+        <default class="visual">
+            <geom group="2" type="mesh" contype="0" conaffinity="0" />
+        </default>
+        <default class="collision">
+            <geom group="3" type="mesh" contype="1" conaffinity="1" />
+        </default>
+        <default class="realsense">
+            <camera fovy="42.5" />
+        </default>
+    </default>
+    <asset>
+        <material name="groundplane" rgba="0.95 0.95 0.95 1" reflectance="0" shininess="0"
+            specular="0" />
+        <texture type="skybox" builtin="flat" rgb1="1 1 1" rgb2="1 1 1" width="8"
+            height="16" />
+    </asset>
+
+    <visual>
+        <headlight diffuse="0.6 0.6 0.6" ambient="0.6 0.6 0.6" specular="0.6 0.6 0.6" />
+        <global azimuth="120" elevation="-20" offheight="512" />
+    </visual>
+
+    <!-- UR5e -->
+    <include file="./ur5e/ur5e_rg2_d435i.xml" />
+
+    <!-- Base table -->
+    <include file="./realworld/base_table_wood.xml" />
+
+    <!-- Object table -->
+    <include file="./realworld/avoiding_table.xml" />
+    <include file="./realworld/side_tables.xml" />
+
+    <!-- Kitchen objects -->
+    <include file="./kitchen/tray.xml" />
+    <include file="./kitchen/kitchen-plate.xml" />
+    <include file="./realistic_object/mug_cup.xml" />
+
+    <!-- Drainer object -->
+    <include file="./kitchen/kitchen-drainer.xml" />
+    
+    <worldbody>
+        <geom name="floor" size="0 0 0.05" type="plane" material="groundplane" pos="0 0 -0.3" />
+        <camera class="realsense" name="front" pos="1.4 0.0 0.8" xyaxes="0 1.000 0.000 -0.4 0.0 0.8" />
+        <camera class="realsense" name="top_down" pos="0.3 0.0 1.5" euler="0 0 1.57079632679" />
+    </worldbody>
+</mujoco>
