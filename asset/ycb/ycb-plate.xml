@@ -1,0 +1,29 @@
+<mujoco model="plate">
+  <asset>
+    <texture type="2d" name="plate_texture_map" file="../mesh/ycb-plate.png" />
+    <material name="material_0.006" texture="plate_texture_map" specular="0.0" shininess="0.5" />
+    <mesh file="ycb-plate.obj" />
+    <mesh file="ycb-plate_collision_0.obj" />
+    <mesh file="ycb-plate_collision_1.obj" />
+    <mesh file="ycb-plate_collision_2.obj" />
+    <mesh file="ycb-plate_collision_3.obj" />
+    <mesh file="ycb-plate_collision_4.obj" />
+    <mesh file="ycb-plate_collision_5.obj" />
+    <mesh file="ycb-plate_collision_6.obj" />
+    <mesh file="ycb-plate_collision_7.obj" />
+  </asset>
+  <worldbody>
+    <body name="ycb-plate" pos="1.0 0 1.28">
+      <freejoint />
+      <geom material="material_0.006" mesh="ycb-plate" class="visual" />
+      <geom mesh="ycb-plate_collision_0" class="collision" />
+      <geom mesh="ycb-plate_collision_1" class="collision" />
+      <geom mesh="ycb-plate_collision_2" class="collision" />
+      <geom mesh="ycb-plate_collision_3" class="collision" />
+      <geom mesh="ycb-plate_collision_4" class="collision" />
+      <geom mesh="ycb-plate_collision_5" class="collision" />
+      <geom mesh="ycb-plate_collision_6" class="collision" />
+      <geom mesh="ycb-plate_collision_7" class="collision" />
+    </body>
+  </worldbody>
+</mujoco>

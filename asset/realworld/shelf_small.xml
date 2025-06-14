@@ -1,0 +1,35 @@
+<mujoco>
+
+    <asset>
+        <texture type="2d" name="shelf_dark" file="darkwood.png"/>
+        <material name="shelf_dark_mat" texture="shelf_dark" specular="0.5" shininess="0.5"/>
+        <texture type="2d" name="shelf" file="light_wood.png"/>
+        <material name="shelf_mat" texture="shelf" specular="0.5" shininess="0.5"/>
+    </asset>    
+    <worldbody>
+        <!-- shelf -->
+        <body name="shelf_row1" pos="0.8 0. 0.80" euler="0 0 1.57">
+            <!-- <joint type="free" /> -->
+            <!-- Shelf Base -->
+            <geom name="shelf_base_row1" type="box" size="0.243 0.11 0.005" material="shelf_mat" />
+            <body name="shelf_row2" pos="0 0 0.30">
+                <geom name="shelf_base_row2" type="box" size="0.243 0.11 0.005" material="shelf_mat" />
+            </body>
+
+            <!-- Shelf columns -->
+            <body name="shelf_column1" pos="-0.25 0. 0.20">
+                <geom name="shelf_column1_geom" type="box" size="0.005 0.125 0.20" material="shelf_mat" />
+            </body>
+            <body name="shelf_column2" pos="0.25 0. 0.20">
+                <geom name="shelf_column2_geom" type="box" size="0.005 0.125 0.20" material="shelf_mat" />
+            </body>
+
+            <!-- Shelf Back -->
+            <body name="shelf_back" pos="0 -0.12 0.20">
+                <geom name="shelf_back_geom" type="box" size="0.245 0.005 0.20" material="shelf_mat" />
+            </body>
+
+        </body>
+
+    </worldbody>
+</mujoco>

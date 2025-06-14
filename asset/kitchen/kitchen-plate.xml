@@ -1,0 +1,189 @@
+<mujoco model="plate">
+  <asset>
+    <texture type="2d" name="plate" file="plate.png"/>
+    <material name="plate" texture="plate" specular="0.5" shininess="0.5"/>
+    <mesh file="plate.obj"/>
+    <mesh file="plate_collision_0.obj"/>
+    <mesh file="plate_collision_1.obj"/>
+    <mesh file="plate_collision_2.obj"/>
+    <mesh file="plate_collision_3.obj"/>
+    <mesh file="plate_collision_4.obj"/>
+    <mesh file="plate_collision_5.obj"/>
+    <mesh file="plate_collision_6.obj"/>
+    <mesh file="plate_collision_7.obj"/>
+    <mesh file="plate_collision_8.obj"/>
+    <mesh file="plate_collision_9.obj"/>
+    <mesh file="plate_collision_10.obj"/>
+    <mesh file="plate_collision_11.obj"/>
+    <mesh file="plate_collision_12.obj"/>
+    <mesh file="plate_collision_13.obj"/>
+    <mesh file="plate_collision_14.obj"/>
+    <mesh file="plate_collision_15.obj"/>
+    <mesh file="plate_collision_16.obj"/>
+    <mesh file="plate_collision_17.obj"/>
+    <mesh file="plate_collision_18.obj"/>
+    <mesh file="plate_collision_19.obj"/>
+    <mesh file="plate_collision_20.obj"/>
+    <mesh file="plate_collision_21.obj"/>
+    <mesh file="plate_collision_22.obj"/>
+    <mesh file="plate_collision_23.obj"/>
+    <mesh file="plate_collision_24.obj"/>
+    <mesh file="plate_collision_25.obj"/>
+    <mesh file="plate_collision_26.obj"/>
+    <mesh file="plate_collision_27.obj"/>
+    <mesh file="plate_collision_28.obj"/>
+    <mesh file="plate_collision_29.obj"/>
+    <mesh file="plate_collision_30.obj"/>
+    <mesh file="plate_collision_31.obj"/>
+  </asset>
+  <worldbody>
+    <body name="kitchen-plate" pos="1.2 0 1">
+      <joint name="kitchen-plate_joint" type="free"/>
+      <geom material="plate" mesh="plate" class="visual"/>
+      <geom mesh="plate_collision_0" class="collision"/>
+      <geom mesh="plate_collision_1" class="collision"/>
+      <geom mesh="plate_collision_2" class="collision"/>
+      <geom mesh="plate_collision_3" class="collision"/>
+      <geom mesh="plate_collision_4" class="collision"/>
+      <geom mesh="plate_collision_5" class="collision"/>
+      <geom mesh="plate_collision_6" class="collision"/>
+      <geom mesh="plate_collision_7" class="collision"/>
+      <geom mesh="plate_collision_8" class="collision"/>
+      <geom mesh="plate_collision_9" class="collision"/>
+      <geom mesh="plate_collision_10" class="collision"/>
+      <geom mesh="plate_collision_11" class="collision"/>
+      <geom mesh="plate_collision_12" class="collision"/>
+      <geom mesh="plate_collision_13" class="collision"/>
+      <geom mesh="plate_collision_14" class="collision"/>
+      <geom mesh="plate_collision_15" class="collision"/>
+      <geom mesh="plate_collision_16" class="collision"/>
+      <geom mesh="plate_collision_17" class="collision"/>
+      <geom mesh="plate_collision_18" class="collision"/>
+      <geom mesh="plate_collision_19" class="collision"/>
+      <geom mesh="plate_collision_20" class="collision"/>
+      <geom mesh="plate_collision_21" class="collision"/>
+      <geom mesh="plate_collision_22" class="collision"/>
+      <geom mesh="plate_collision_23" class="collision"/>
+      <geom mesh="plate_collision_24" class="collision"/>
+      <geom mesh="plate_collision_25" class="collision"/>
+      <geom mesh="plate_collision_26" class="collision"/>
+      <geom mesh="plate_collision_27" class="collision"/>
+      <geom mesh="plate_collision_28" class="collision"/>
+      <geom mesh="plate_collision_29" class="collision"/>
+      <geom mesh="plate_collision_30" class="collision"/>
+      <geom mesh="plate_collision_31" class="collision"/>
+    </body>
+
+    <body name="kitchen-plate-2" pos="0.7 0.5 1">
+      <joint name="kitchen-plate-2_joint" type="free"/>
+      <geom material="plate" mesh="plate" class="visual"/>
+      <geom mesh="plate_collision_0" class="collision"/>
+      <geom mesh="plate_collision_1" class="collision"/>
+      <geom mesh="plate_collision_2" class="collision"/>
+      <geom mesh="plate_collision_3" class="collision"/>
+      <geom mesh="plate_collision_4" class="collision"/>
+      <geom mesh="plate_collision_5" class="collision"/>
+      <geom mesh="plate_collision_6" class="collision"/>
+      <geom mesh="plate_collision_7" class="collision"/>
+      <geom mesh="plate_collision_8" class="collision"/>
+      <geom mesh="plate_collision_9" class="collision"/>
+      <geom mesh="plate_collision_10" class="collision"/>
+      <geom mesh="plate_collision_11" class="collision"/>
+      <geom mesh="plate_collision_12" class="collision"/>
+      <geom mesh="plate_collision_13" class="collision"/>
+      <geom mesh="plate_collision_14" class="collision"/>
+      <geom mesh="plate_collision_15" class="collision"/>
+      <geom mesh="plate_collision_16" class="collision"/>
+      <geom mesh="plate_collision_17" class="collision"/>
+      <geom mesh="plate_collision_18" class="collision"/>
+      <geom mesh="plate_collision_19" class="collision"/>
+      <geom mesh="plate_collision_20" class="collision"/>
+      <geom mesh="plate_collision_21" class="collision"/>
+      <geom mesh="plate_collision_22" class="collision"/>
+      <geom mesh="plate_collision_23" class="collision"/>
+      <geom mesh="plate_collision_24" class="collision"/>
+      <geom mesh="plate_collision_25" class="collision"/>
+      <geom mesh="plate_collision_26" class="collision"/>
+      <geom mesh="plate_collision_27" class="collision"/>
+      <geom mesh="plate_collision_28" class="collision"/>
+      <geom mesh="plate_collision_29" class="collision"/>
+      <geom mesh="plate_collision_30" class="collision"/>
+      <geom mesh="plate_collision_31" class="collision"/>
+    </body>
+
+    <body name="kitchen-plate-3" pos="1 -0.5 1">
+      <joint name="kitchen-plate-3_joint" type="free"/>
+      <geom material="plate" mesh="plate" class="visual"/>
+      <geom mesh="plate_collision_0" class="collision"/>
+      <geom mesh="plate_collision_1" class="collision"/>
+      <geom mesh="plate_collision_2" class="collision"/>
+      <geom mesh="plate_collision_3" class="collision"/>
+      <geom mesh="plate_collision_4" class="collision"/>
+      <geom mesh="plate_collision_5" class="collision"/>
+      <geom mesh="plate_collision_6" class="collision"/>
+      <geom mesh="plate_collision_7" class="collision"/>
+      <geom mesh="plate_collision_8" class="collision"/>
+      <geom mesh="plate_collision_9" class="collision"/>
+      <geom mesh="plate_collision_10" class="collision"/>
+      <geom mesh="plate_collision_11" class="collision"/>
+      <geom mesh="plate_collision_12" class="collision"/>
+      <geom mesh="plate_collision_13" class="collision"/>
+      <geom mesh="plate_collision_14" class="collision"/>
+      <geom mesh="plate_collision_15" class="collision"/>
+      <geom mesh="plate_collision_16" class="collision"/>
+      <geom mesh="plate_collision_17" class="collision"/>
+      <geom mesh="plate_collision_18" class="collision"/>
+      <geom mesh="plate_collision_19" class="collision"/>
+      <geom mesh="plate_collision_20" class="collision"/>
+      <geom mesh="plate_collision_21" class="collision"/>
+      <geom mesh="plate_collision_22" class="collision"/>
+      <geom mesh="plate_collision_23" class="collision"/>
+      <geom mesh="plate_collision_24" class="collision"/>
+      <geom mesh="plate_collision_25" class="collision"/>
+      <geom mesh="plate_collision_26" class="collision"/>
+      <geom mesh="plate_collision_27" class="collision"/>
+      <geom mesh="plate_collision_28" class="collision"/>
+      <geom mesh="plate_collision_29" class="collision"/>
+      <geom mesh="plate_collision_30" class="collision"/>
+      <geom mesh="plate_collision_31" class="collision"/>
+    </body>
+
+    <body name="kitchen-plate-4" pos="0.9 -0.3 1">
+      <joint name="kitchen-plate-4_joint" type="free"/>
+      <geom material="plate" mesh="plate" class="visual"/>
+      <geom mesh="plate_collision_0" class="collision"/>
+      <geom mesh="plate_collision_1" class="collision"/>
+      <geom mesh="plate_collision_2" class="collision"/>
+      <geom mesh="plate_collision_3" class="collision"/>
+      <geom mesh="plate_collision_4" class="collision"/>
+      <geom mesh="plate_collision_5" class="collision"/>
+      <geom mesh="plate_collision_6" class="collision"/>
+      <geom mesh="plate_collision_7" class="collision"/>
+      <geom mesh="plate_collision_8" class="collision"/>
+      <geom mesh="plate_collision_9" class="collision"/>
+      <geom mesh="plate_collision_10" class="collision"/>
+      <geom mesh="plate_collision_11" class="collision"/>
+      <geom mesh="plate_collision_12" class="collision"/>
+      <geom mesh="plate_collision_13" class="collision"/>
+      <geom mesh="plate_collision_14" class="collision"/>
+      <geom mesh="plate_collision_15" class="collision"/>
+      <geom mesh="plate_collision_16" class="collision"/>
+      <geom mesh="plate_collision_17" class="collision"/>
+      <geom mesh="plate_collision_18" class="collision"/>
+      <geom mesh="plate_collision_19" class="collision"/>
+      <geom mesh="plate_collision_20" class="collision"/>
+      <geom mesh="plate_collision_21" class="collision"/>
+      <geom mesh="plate_collision_22" class="collision"/>
+      <geom mesh="plate_collision_23" class="collision"/>
+      <geom mesh="plate_collision_24" class="collision"/>
+      <geom mesh="plate_collision_25" class="collision"/>
+      <geom mesh="plate_collision_26" class="collision"/>
+      <geom mesh="plate_collision_27" class="collision"/>
+      <geom mesh="plate_collision_28" class="collision"/>
+      <geom mesh="plate_collision_29" class="collision"/>
+      <geom mesh="plate_collision_30" class="collision"/>
+      <geom mesh="plate_collision_31" class="collision"/>
+    </body>
+
+  </worldbody>
+</mujoco>

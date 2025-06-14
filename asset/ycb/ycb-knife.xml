@@ -1,0 +1,24 @@
+<mujoco model="ycb-knife">
+
+  <asset>
+    <texture type="2d" name="ycb-knife" file="ycb-knife.png"/>
+    <material name="ycb-knife_mat" texture="ycb-knife" specular="0.5" shininess="0.5"/>
+    <mesh file="ycb-knife.obj"/>
+    <mesh file="ycb-knife_collision_0.obj"/>
+    <mesh file="ycb-knife_collision_1.obj"/>
+    <mesh file="ycb-knife_collision_2.obj"/>
+    <mesh file="ycb-knife_collision_3.obj"/>
+    <mesh file="ycb-knife_collision_4.obj"/>
+  </asset>
+  <worldbody>
+    <body name="ycb-knife">
+      <freejoint/>
+      <geom material="ycb-knife_mat" mesh="ycb-knife" class="visual"/>
+      <geom mesh="ycb-knife_collision_0" class="collision"/>
+      <geom mesh="ycb-knife_collision_1" class="collision"/>
+      <geom mesh="ycb-knife_collision_2" class="collision"/>
+      <geom mesh="ycb-knife_collision_3" class="collision"/>
+      <geom mesh="ycb-knife_collision_4" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,79 @@
+<mujoco model="ur5e scene">  
+  <option impratio="10" />
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh" contype="1" conaffinity="1"/>
+    </default>
+    <default class="realsense">
+      <camera fovy="42.5" />
+    </default>
+  </default>
+
+  <asset>
+    <material name="groundplane" rgba="0.95 0.95 0.95 1" reflectance="0" shininess="0"
+        specular="0" />
+</asset>
+
+    <visual>
+      <headlight diffuse="0.6 0.6 0.6" ambient="0.6 0.6 0.6" specular="0.6 0.6 0.6" />
+      <global azimuth="120" elevation="-20" offheight="512" />
+  </visual>
+
+  <!-- UR5e -->
+  <include file="./ur5e/ur5e_rg2_d435i.xml" />
+
+  <!-- Base table -->
+  <!-- <include file="./realworld/base_table.xml" /> -->
+  <include file="./realworld/base_table_metal.xml" />
+  <include file="./realworld/avoiding_table.xml" />
+  <include file="./realworld/side_tables.xml" />
+
+  <include file="./object/obj_glass.xml" />
+  <include file="./object/obj_orange.xml" />
+  <include file="./object/fat_wine_glass.xml" />
+  <include file="./realistic_object/mug_cup.xml" />
+
+  <!-- Kitchen object -->
+  <include file="./kitchen/tray.xml" />
+  <include file="./kitchen/tray_gray.xml" />
+  <include file="./kitchen/kitchen-bowl.xml" />
+
+  <!-- Beverage object -->
+  <include file="./realistic_object/coke.xml" />
+  <include file="./beverage/cider.xml" />
+  <include file="./beverage/redbullcan.xml" />
+  <!-- <include file="./beverage/fanta_grape.xml" /> -->
+  <include file="./beverage/orange_can.xml" />
+
+  <!-- Snack object -->
+  <include file="./snack/chocopie.xml" />
+  <include file="./snack/pocky.xml" />
+  <include file="./realistic_object/pringles.xml" />
+
+  <!-- YCB Fruit objects -->
+  <include file="./ycb/ycb-apple.xml" />
+  <include file="./ycb/ycb-banana.xml" />
+  <include file="./ycb/ycb-lemon.xml" />
+  <include file="./ycb/ycb-orange.xml" />
+
+  <include file="./realworld/shelf_realworld.xml" />
+
+  <!-- Floor and Sky -->
+  <!-- <include file="./object/floor_sky.xml" /> -->
+    <worldbody>
+      <geom name="floor" size="0 0 0.05" type="plane" material="groundplane" pos="0 0 0" />
+      <camera class="realsense" name="front" pos="1.4 0.0 0.8" xyaxes="0 1.000 0.000 -0.4 0.0 0.8" />
+      <camera class="realsense" name="top_down" pos="0.45 0.0 1.2"
+          euler="0 0 0" />
+      <camera class="realsense" name="front_right" pos="0.925 -1.338 0.862"
+          xyaxes="0.912 0.411 -0.000 -0.169 0.375 0.912" />
+      <camera class="realsense" name="back_left" pos="-0.918 1.927 1.467"
+          xyaxes="-0.799 -0.601 0.000 0.344 -0.457 0.820" />
+        <!-- <geom name="floor" size="0 0 0.05" type="plane" material="groundplane" pos="0 0 -0.3" />
+        <camera class="realsense" name="front" pos="1.4 0.0 0.8" xyaxes="0 1.000 0.000 -0.4 0.0 0.8" />
+        <camera class="realsense" name="top_down" pos="0.3 0.0 1.5" euler="0 0 1.57079632679" /> -->
+    </worldbody>
+</mujoco>

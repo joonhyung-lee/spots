@@ -1,0 +1,140 @@
+<mujoco model="dish_rack">
+  <asset>
+    <material name="dish_rack_mat" specular="0.5" shininess="0.323999994" rgba="1 1 1 1"/>
+    <mesh file="dish_rack.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_0.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_1.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_2.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_3.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_4.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_5.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_6.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_7.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_8.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_9.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_10.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_11.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_12.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_13.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_14.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_15.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_16.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_17.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_18.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_19.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_20.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_21.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_22.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_23.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_24.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_25.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_26.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_27.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_28.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_29.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_30.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_31.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_32.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_33.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_34.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_35.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_36.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_37.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_38.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_39.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_40.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_41.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_42.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_43.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_44.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_45.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_46.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_47.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_48.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_49.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_50.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_51.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_52.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_53.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_54.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_55.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_56.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_57.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_58.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_59.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_60.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_61.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_62.obj" scale="1.2 1.2 1.2"/>
+    <mesh file="dish_rack_collision_63.obj" scale="1.2 1.2 1.2"/>
+  </asset>
+  <worldbody>
+    <body name="dish_rack">
+      <freejoint/>
+      <geom material="dish_rack_mat" mesh="dish_rack" class="visual"/>
+      <geom mesh="dish_rack_collision_0" class="collision"/>
+      <geom mesh="dish_rack_collision_1" class="collision"/>
+      <geom mesh="dish_rack_collision_2" class="collision"/>
+      <geom mesh="dish_rack_collision_3" class="collision"/>
+      <geom mesh="dish_rack_collision_4" class="collision"/>
+      <geom mesh="dish_rack_collision_5" class="collision"/>
+      <geom mesh="dish_rack_collision_6" class="collision"/>
+      <geom mesh="dish_rack_collision_7" class="collision"/>
+      <geom mesh="dish_rack_collision_8" class="collision"/>
+      <geom mesh="dish_rack_collision_9" class="collision"/>
+      <geom mesh="dish_rack_collision_10" class="collision"/>
+      <geom mesh="dish_rack_collision_11" class="collision"/>
+      <geom mesh="dish_rack_collision_12" class="collision"/>
+      <geom mesh="dish_rack_collision_13" class="collision"/>
+      <geom mesh="dish_rack_collision_14" class="collision"/>
+      <geom mesh="dish_rack_collision_15" class="collision"/>
+      <geom mesh="dish_rack_collision_16" class="collision"/>
+      <geom mesh="dish_rack_collision_17" class="collision"/>
+      <geom mesh="dish_rack_collision_18" class="collision"/>
+      <geom mesh="dish_rack_collision_19" class="collision"/>
+      <geom mesh="dish_rack_collision_20" class="collision"/>
+      <geom mesh="dish_rack_collision_21" class="collision"/>
+      <geom mesh="dish_rack_collision_22" class="collision"/>
+      <geom mesh="dish_rack_collision_23" class="collision"/>
+      <geom mesh="dish_rack_collision_24" class="collision"/>
+      <geom mesh="dish_rack_collision_25" class="collision"/>
+      <geom mesh="dish_rack_collision_26" class="collision"/>
+      <geom mesh="dish_rack_collision_27" class="collision"/>
+      <geom mesh="dish_rack_collision_28" class="collision"/>
+      <geom mesh="dish_rack_collision_29" class="collision"/>
+      <geom mesh="dish_rack_collision_30" class="collision"/>
+      <geom mesh="dish_rack_collision_31" class="collision"/>
+      <geom mesh="dish_rack_collision_32" class="collision"/>
+      <geom mesh="dish_rack_collision_33" class="collision"/>
+      <geom mesh="dish_rack_collision_34" class="collision"/>
+      <geom mesh="dish_rack_collision_35" class="collision"/>
+      <geom mesh="dish_rack_collision_36" class="collision"/>
+      <geom mesh="dish_rack_collision_37" class="collision"/>
+      <geom mesh="dish_rack_collision_38" class="collision"/>
+      <geom mesh="dish_rack_collision_39" class="collision"/>
+      <geom mesh="dish_rack_collision_40" class="collision"/>
+      <geom mesh="dish_rack_collision_41" class="collision"/>
+      <geom mesh="dish_rack_collision_42" class="collision"/>
+      <geom mesh="dish_rack_collision_43" class="collision"/>
+      <geom mesh="dish_rack_collision_44" class="collision"/>
+      <geom mesh="dish_rack_collision_45" class="collision"/>
+      <geom mesh="dish_rack_collision_46" class="collision"/>
+      <geom mesh="dish_rack_collision_47" class="collision"/>
+      <geom mesh="dish_rack_collision_48" class="collision"/>
+      <geom mesh="dish_rack_collision_49" class="collision"/>
+      <geom mesh="dish_rack_collision_50" class="collision"/>
+      <geom mesh="dish_rack_collision_51" class="collision"/>
+      <geom mesh="dish_rack_collision_52" class="collision"/>
+      <geom mesh="dish_rack_collision_53" class="collision"/>
+      <geom mesh="dish_rack_collision_54" class="collision"/>
+      <geom mesh="dish_rack_collision_55" class="collision"/>
+      <geom mesh="dish_rack_collision_56" class="collision"/>
+      <geom mesh="dish_rack_collision_57" class="collision"/>
+      <geom mesh="dish_rack_collision_58" class="collision"/>
+      <geom mesh="dish_rack_collision_59" class="collision"/>
+      <geom mesh="dish_rack_collision_60" class="collision"/>
+      <geom mesh="dish_rack_collision_61" class="collision"/>
+      <geom mesh="dish_rack_collision_62" class="collision"/>
+      <geom mesh="dish_rack_collision_63" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,44 @@
+<mujoco model="cider_scene">
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.1 0.1 0.1" specular="0 0 0" />
+    <rgba haze="0.15 0.25 0.35 1" />
+    <global azimuth="120" elevation="-20" />
+  </visual>
+
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh"/>
+    </default>
+  </default>
+  <asset>
+    <texture type="2d" name="cider" file="cider.png"/>
+    <material name="cider_mat" texture="cider" specular="0.5" shininess="0.5"/>
+    <mesh file="cider.obj" scale="0.001 0.001 0.001"/>
+    <mesh file="cider_collision_0.obj" scale="0.001 0.001 0.001"/>
+    <mesh file="cider_collision_1.obj" scale="0.001 0.001 0.001"/>
+
+    <!-- Sky -->
+    <texture type="skybox" builtin="gradient" rgb1="0.1 0.2 0.3" rgb2="0 0 0" width="512"
+      height="3072" />
+    <!-- Ground -->
+    <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.3 0.4 0.5"
+      rgb2="0.1 0.2 0.3" markrgb="0.8 0.8 0.8" width="300" height="300" />
+    <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="2 2"
+      reflectance="0.2" />
+
+  </asset>
+  <worldbody>
+    <light pos="0 0 3" dir="0 0 -1" directional="true" diffuse="1 1 1" />
+    <geom name="floor" size="0 0 0.05" type="plane" material="groundplane" />
+
+    <body name="cider" pos="0 0 1.0" quat="0.14 -0.96 0.096 -0.22">
+      <freejoint/>
+      <geom material="cider_mat" mesh="cider" class="visual"/>
+      <geom mesh="cider_collision_0" class="collision"/>
+      <geom mesh="cider_collision_1" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

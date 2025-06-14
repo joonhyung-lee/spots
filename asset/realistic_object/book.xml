@@ -1,0 +1,114 @@
+<mujoco model="book">
+  <asset>
+    <texture type="2d" name="book" file="book.png"/>
+    <material name="book_mat" texture="book" specular="0.5" shininess="0.5"/>
+    <material name="book_red" texture="book" specular="0.5" shininess="0.5" rgba="1 0 0 1"/>
+    <mesh file="book.obj"/>
+    <mesh file="book_collision_0.obj"/>
+    <mesh file="book_collision_1.obj"/>
+    <mesh file="book_collision_2.obj"/>
+    <mesh file="book_collision_3.obj"/>
+    <mesh file="book_collision_4.obj"/>
+  </asset>
+  <worldbody>
+    <body name="book1" pos="-3 0 0">
+      <joint name="book1_joint" type="free"/>
+      <geom material="book_mat" mesh="book" class="visual"/>
+      <geom mesh="book_collision_0" class="collision"/>
+      <geom mesh="book_collision_1" class="collision"/>
+      <geom mesh="book_collision_2" class="collision"/>
+      <geom mesh="book_collision_3" class="collision"/>
+      <geom mesh="book_collision_4" class="collision"/>
+    </body>
+
+    <body name="book2">
+      <joint name="book2_joint" type="free"/>
+      <geom material="book_mat" mesh="book" class="visual"/>
+      <geom mesh="book_collision_0" class="collision"/>
+      <geom mesh="book_collision_1" class="collision"/>
+      <geom mesh="book_collision_2" class="collision"/>
+      <geom mesh="book_collision_3" class="collision"/>
+      <geom mesh="book_collision_4" class="collision"/>
+    </body>
+
+    <body name="book3">
+      <joint name="book3_joint" type="free"/>
+      <geom material="book_mat" mesh="book" class="visual"/>
+      <geom mesh="book_collision_0" class="collision"/>
+      <geom mesh="book_collision_1" class="collision"/>
+      <geom mesh="book_collision_2" class="collision"/>
+      <geom mesh="book_collision_3" class="collision"/>
+      <geom mesh="book_collision_4" class="collision"/>
+    </body>
+
+    <body name="book4">
+      <joint name="book4_joint" type="free"/>
+      <geom material="book_mat" mesh="book" class="visual"/>
+      <geom mesh="book_collision_0" class="collision"/>
+      <geom mesh="book_collision_1" class="collision"/>
+      <geom mesh="book_collision_2" class="collision"/>
+      <geom mesh="book_collision_3" class="collision"/>
+      <geom mesh="book_collision_4" class="collision"/>
+    </body>
+
+    <body name="book5">
+      <joint name="book5_joint" type="free"/>
+      <geom material="book_mat" mesh="book" class="visual"/>
+      <geom mesh="book_collision_0" class="collision"/>
+      <geom mesh="book_collision_1" class="collision"/>
+      <geom mesh="book_collision_2" class="collision"/>
+      <geom mesh="book_collision_3" class="collision"/>
+      <geom mesh="book_collision_4" class="collision"/>
+    </body>
+
+    <body name="book6">
+      <joint name="book6_joint" type="free"/>
+      <geom material="book_mat" mesh="book" class="visual"/>
+      <geom mesh="book_collision_0" class="collision"/>
+      <geom mesh="book_collision_1" class="collision"/>
+      <geom mesh="book_collision_2" class="collision"/>
+      <geom mesh="book_collision_3" class="collision"/>
+      <geom mesh="book_collision_4" class="collision"/>
+    </body>
+
+    <body name="book7">
+      <joint name="book7_joint" type="free"/>
+      <geom material="book_mat" mesh="book" class="visual"/>
+      <geom mesh="book_collision_0" class="collision"/>
+      <geom mesh="book_collision_1" class="collision"/>
+      <geom mesh="book_collision_2" class="collision"/>
+      <geom mesh="book_collision_3" class="collision"/>
+      <geom mesh="book_collision_4" class="collision"/>
+    </body>
+
+    <body name="book8">
+      <joint name="book8_joint" type="free"/>
+      <geom material="book_mat" mesh="book" class="visual"/>
+      <geom mesh="book_collision_0" class="collision"/>
+      <geom mesh="book_collision_1" class="collision"/>
+      <geom mesh="book_collision_2" class="collision"/>
+      <geom mesh="book_collision_3" class="collision"/>
+      <geom mesh="book_collision_4" class="collision"/>
+    </body>
+
+    <body name="book9">
+      <joint name="book9_joint" type="free"/>
+      <geom material="book_mat" mesh="book" class="visual"/>
+      <geom mesh="book_collision_0" class="collision"/>
+      <geom mesh="book_collision_1" class="collision"/>
+      <geom mesh="book_collision_2" class="collision"/>
+      <geom mesh="book_collision_3" class="collision"/>
+      <geom mesh="book_collision_4" class="collision"/>
+    </body>
+
+    <body name="book10">
+      <joint name="book10_joint" type="free"/>
+      <geom material="book_mat" mesh="book" class="visual"/>
+      <geom mesh="book_collision_0" class="collision"/>
+      <geom mesh="book_collision_1" class="collision"/>
+      <geom mesh="book_collision_2" class="collision"/>
+      <geom mesh="book_collision_3" class="collision"/>
+      <geom mesh="book_collision_4" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,40 @@
+<mujoco>
+      <asset>    
+        <texture type="2d" name="light_wood" file="light_wood.png"/>
+        <material name="wood_rack" texture="light_wood" specular="0.5" shininess="0.5" rgba="0.7 0.7 0.7 1"/>
+      </asset>
+    
+    <worldbody>    
+        <body name="rack_base" pos="0.8 0. 0.80">
+            <joint type="free" />
+            <geom name="rack_base_front" type="box" pos="0 0.1 0" size="0.05 0.005 0.005" material="wood_rack"/>
+            <geom name="rack_base_rear" type="box" pos="0 -0.1 0" size="0.05 0.005 0.005" material="wood_rack"/>  
+            <geom name="rack_base_right" type="box" pos="0.05 0. 0.0" size="0.005 0.16 0.005" material="wood_rack"/>  
+            <geom name="rack_base_left" type="box" pos="-0.05 0. 0.0" size="0.005 0.16 0.005" material="wood_rack"/>  
+
+            <!-- Make a column to build a dish rack -->
+            <body name="rack_column" pos="0 0 0.0025">
+                <!-- Box type -->
+                <!-- <geom name="rack_column" type="box" pos="0 0 0" size="0.005 0.005 0.0425" /> -->
+                <!-- Cylinder type -->
+                <geom type="cylinder" pos="-0.05 0.1 0.045" size="0.005 0.0425" material="wood_rack"/>  
+                <geom type="cylinder" pos="0.05 0.1 0.045" size="0.005 0.0425" material="wood_rack"/>  
+
+                <geom type="cylinder" pos="-0.05 0.05 0.045" size="0.005 0.0425" material="wood_rack"/>  
+                <geom type="cylinder" pos="0.05 0.05 0.045" size="0.005 0.0425" material="wood_rack"/>  
+
+                <geom type="cylinder" pos="-0.05 0.0 0.045" size="0.005 0.0425" material="wood_rack"/>  
+                <geom type="cylinder" pos="0.05 0.0 0.045" size="0.005 0.0425" material="wood_rack"/>  
+
+                <geom type="cylinder" pos="-0.05 -0.05 0.045" size="0.005 0.0425" material="wood_rack"/>  
+                <geom type="cylinder" pos="0.05 -0.05 0.045" size="0.005 0.0425" material="wood_rack"/>  
+
+                <geom type="cylinder" pos="-0.05 -0.1 0.045" size="0.005 0.0425" material="wood_rack"/>  
+                <geom type="cylinder" pos="0.05 -0.1 0.045" size="0.005 0.0425" material="wood_rack"/>  
+
+            </body>
+
+        </body>
+
+    </worldbody>
+</mujoco>

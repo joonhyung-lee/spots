@@ -1,0 +1,15 @@
+<mujoco model="tennis_ball">
+  <asset>
+    <texture type="2d" name="tennis_ball" file="tennis_ball.png"/>
+    <material name="material_0" texture="tennis_ball" specular="0.5" shininess="0.5"/>
+    <mesh file="tennis_ball.obj"/>
+    <mesh file="tennis_ball_collision_0.obj"/>
+  </asset>
+  <worldbody>
+    <body name="tennis_ball">
+      <freejoint/>
+      <geom material="material_0" mesh="tennis_ball" class="visual"/>
+      <geom mesh="tennis_ball_collision_0" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

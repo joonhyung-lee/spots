@@ -1,0 +1,23 @@
+<mujoco model="ycb-spatula">
+  <asset>
+    <texture type="2d" name="ycb-spatula" file="ycb-spatula.png"/>
+    <material name="ycb-spatula_mat" texture="ycb-spatula" specular="0.5" shininess="0.5"/>
+    <mesh file="ycb-spatula.obj"/>
+    <mesh file="ycb-spatula_collision_0.obj"/>
+    <mesh file="ycb-spatula_collision_1.obj"/>
+    <mesh file="ycb-spatula_collision_2.obj"/>
+    <mesh file="ycb-spatula_collision_3.obj"/>
+    <mesh file="ycb-spatula_collision_4.obj"/>
+  </asset>
+  <worldbody>
+    <body name="ycb-spatula">
+      <freejoint />
+      <geom material="ycb-spatula_mat" mesh="ycb-spatula" class="visual"/>
+      <geom mesh="ycb-spatula_collision_0" class="collision"/>
+      <geom mesh="ycb-spatula_collision_1" class="collision"/>
+      <geom mesh="ycb-spatula_collision_2" class="collision"/>
+      <geom mesh="ycb-spatula_collision_3" class="collision"/>
+      <geom mesh="ycb-spatula_collision_4" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

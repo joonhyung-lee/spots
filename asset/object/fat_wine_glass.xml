@@ -1,0 +1,14 @@
+<mujoco model="fat_wine_glass">
+  <asset>
+    <material name="fat_wine_glass_mat" specular="0.5" shininess="0.36" rgba="0.800000 0.800000 0.800000 0.3"/>
+    <mesh file="fat_wine_glass.obj" scale="1 0.9 1"/>
+    <mesh file="fat_wine_glass_collision_0.obj" scale="1 0.9 1"/>
+  </asset>
+  <worldbody>
+    <body name="fat_wine_glass">
+      <freejoint/>
+      <geom material="fat_wine_glass_mat" mesh="fat_wine_glass" class="visual"/>
+      <geom mesh="fat_wine_glass_collision_0" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

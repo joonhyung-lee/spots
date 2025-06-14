@@ -1,0 +1,15 @@
+<mujocoinclude>
+    <asset>
+        <texture type="2d" name="metal_base" file="metal.png" />
+        <material name="metal_mat" texture="metal_base" specular="0.5" shininess="0.5"
+            rgba="0.7 0.7 0.7 1" />
+    </asset>
+
+    <worldbody>
+        <body name="base_table" pos="0 0 0.0" euler="0 0 0">
+            <geom name="base_table" size="0.38 0.36 0.395" pos="0 0 0.395" type="box" material="metal_mat" rgba="1 1 1 1.0"/>
+            <inertial pos="0 0 0" mass="1" diaginertia="0 0 0" />
+        </body>
+    </worldbody>
+
+</mujocoinclude>

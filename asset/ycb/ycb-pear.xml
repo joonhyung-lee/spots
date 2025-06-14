@@ -1,0 +1,24 @@
+<mujoco model="ycb-pear">
+
+  <asset>
+    <texture type="2d" name="ycb-pear" file="ycb-pear.png"/>
+    <material name="ycb-pear_mat" texture="ycb-pear" specular="0.5" shininess="0.5"/>
+    <mesh file="ycb-pear.obj"/>
+    <mesh file="ycb-pear_collision_0.obj"/>
+    <mesh file="ycb-pear_collision_1.obj"/>
+    <mesh file="ycb-pear_collision_2.obj"/>
+    <mesh file="ycb-pear_collision_3.obj"/>
+    <mesh file="ycb-pear_collision_4.obj"/>
+  </asset>
+  <worldbody>
+    <body name="ycb-pear">
+      <freejoint/>
+      <geom material="ycb-pear_mat" mesh="ycb-pear" class="visual"/>
+      <geom mesh="ycb-pear_collision_0" class="collision"/>
+      <geom mesh="ycb-pear_collision_1" class="collision"/>
+      <geom mesh="ycb-pear_collision_2" class="collision"/>
+      <geom mesh="ycb-pear_collision_3" class="collision"/>
+      <geom mesh="ycb-pear_collision_4" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

@@ -34,7 +34,6 @@
 
   <!-- Realistic objects -->
   <include file="./realistic_object/book.xml" />
-  <include file="./realistic_object/starbucks_cup.xml" />
   <include file="./realistic_object/mug_cup.xml" />
 
   <!-- Cylinder objects -->

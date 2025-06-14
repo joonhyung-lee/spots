@@ -1,0 +1,23 @@
+<mujoco model="coke">
+  <asset>
+    <texture type="2d" name="coke" file="coke.png"/>
+    <material name="coke_mat" texture="coke" specular="1.0" shininess="0.0"/>
+    <mesh file="coke.obj" scale="0.006 0.010 0.006" />
+    <mesh file="coke_collision_0.obj" scale="0.006 0.010 0.006" />
+    <mesh file="coke_collision_1.obj" scale="0.006 0.010 0.006" />
+    <mesh file="coke_collision_2.obj" scale="0.006 0.010 0.006" />
+    <mesh file="coke_collision_3.obj" scale="0.006 0.010 0.006" />
+    <mesh file="coke_collision_4.obj" scale="0.006 0.010 0.006" />
+  </asset>
+  <worldbody>
+    <body name="coke" pos="1 1 2" euler="1.57 0 0">
+      <joint name="coke:joint" type="free"/>
+      <geom material="coke_mat" mesh="coke" class="visual"/>
+      <geom mesh="coke_collision_0" class="collision"/>
+      <geom mesh="coke_collision_1" class="collision"/>
+      <geom mesh="coke_collision_2" class="collision"/>
+      <geom mesh="coke_collision_3" class="collision"/>
+      <geom mesh="coke_collision_4" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

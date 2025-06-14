@@ -1,0 +1,21 @@
+<mujoco model="sponge">
+  <asset>
+    <texture type="2d" name="sponge_texture_map" file="../mesh/ycb-plate.png" />
+    <material name="material_0.010" texture="sponge_texture_map" specular="0.0" shininess="0.5" />
+    <mesh file="ycb-sponge.obj" />
+    <mesh file="ycb-sponge_collision_0.obj" />
+    <mesh file="ycb-sponge_collision_1.obj" />
+    <mesh file="ycb-sponge_collision_2.obj" />
+    <mesh file="ycb-sponge_collision_3.obj" />
+  </asset>
+  <worldbody>
+    <body name="ycb-sponge" pos="2.5 0.1 1.3">
+      <freejoint />
+      <geom material="material_0.010" mesh="ycb-sponge" class="visual" />
+      <geom mesh="ycb-sponge_collision_0" class="collision" />
+      <geom mesh="ycb-sponge_collision_1" class="collision" />
+      <geom mesh="ycb-sponge_collision_2" class="collision" />
+      <geom mesh="ycb-sponge_collision_3" class="collision" />
+    </body>
+  </worldbody>
+</mujoco>

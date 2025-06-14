@@ -1,0 +1,20 @@
+<mujoco model="tray">
+  <asset>
+    <texture type="2d" name="tray_gray" file="gray.png"/>
+    <material name="tray_gray_mat" texture="tray_gray" specular="0" shininess="0.0"/>
+    <mesh name="tray_gray" file="tray.obj" scale="0.12 0.11 0.135" />
+    <mesh name="tray_gray_col1" file="tray_collision_0.obj" scale="0.12 0.11 0.135" />
+    <mesh name="tray_gray_col2" file="tray_collision_1.obj" scale="0.12 0.11 0.135" />
+  </asset>
+  <worldbody>
+    <body name="tray_gray" pos="1.2 -0.5 1.0" euler="0 1.57 1.57">
+      <freejoint/>
+      <geom name="tray_gray_base" type="box" pos="0 -0.0001 0" size="0.075 0.001 0.13" rgba="0 0 1 0.0"/>
+      <geom name="tray_gray_col1" type="box" pos="0.075 0.008 0" euler="0 0. 0.975" size="0.006 0.001 0.13" rgba="0 0 1 0.0"/>
+      <geom name="tray_gray_col2" type="box" pos="-0.075 0.008 0" euler="0 0. -0.975" size="0.006 0.001 0.13" rgba="0 0 1 0.0"/>
+      <geom material="tray_gray_mat" mesh="tray_gray" class="visual"/>
+      <!-- <geom mesh="tray_gray_col1" class="collision"/> -->
+      <!-- <geom mesh="tray_gray_col2" class="collision"/> -->
+    </body>
+  </worldbody>
+</mujoco>

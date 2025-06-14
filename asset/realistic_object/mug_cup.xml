@@ -1,0 +1,77 @@
+<mujoco model="mug_cup">
+  <asset>
+    <texture type="2d" name="mug_cup" file="mug_cup.png"/>
+    <material name="mug_cup_mat" texture="mug_cup" specular="0.5" shininess="0.5"/>
+    <mesh file="mug_cup.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_0.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_1.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_2.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_3.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_4.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_5.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_6.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_7.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_8.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_9.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_10.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_11.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_12.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_13.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_14.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_15.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_16.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_17.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_18.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_19.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_20.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_21.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_22.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_23.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_24.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_25.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_26.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_27.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_28.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_29.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_30.obj" scale="1 1 1.2"/>
+    <mesh file="mug_cup_collision_31.obj" scale="1 1 1.2"/>
+  </asset>
+  <worldbody>
+    <body name="mug_cup" pos="1 0.2 0.8">
+      <joint name="mug_cup:joint" type="free"/>
+      <geom material="mug_cup_mat" mesh="mug_cup" class="visual" rgba="1 1 1 0.4"/>
+      <geom mesh="mug_cup_collision_0" class="collision"/>
+      <geom mesh="mug_cup_collision_1" class="collision"/>
+      <geom mesh="mug_cup_collision_2" class="collision"/>
+      <geom mesh="mug_cup_collision_3" class="collision"/>
+      <geom mesh="mug_cup_collision_4" class="collision"/>
+      <geom mesh="mug_cup_collision_5" class="collision"/>
+      <geom mesh="mug_cup_collision_6" class="collision"/>
+      <geom mesh="mug_cup_collision_7" class="collision"/>
+      <geom mesh="mug_cup_collision_8" class="collision"/>
+      <geom mesh="mug_cup_collision_9" class="collision"/>
+      <geom mesh="mug_cup_collision_10" class="collision"/>
+      <geom mesh="mug_cup_collision_11" class="collision"/>
+      <geom mesh="mug_cup_collision_12" class="collision"/>
+      <geom mesh="mug_cup_collision_13" class="collision"/>
+      <geom mesh="mug_cup_collision_14" class="collision"/>
+      <geom mesh="mug_cup_collision_15" class="collision"/>
+      <geom mesh="mug_cup_collision_16" class="collision"/>
+      <geom mesh="mug_cup_collision_17" class="collision"/>
+      <geom mesh="mug_cup_collision_18" class="collision"/>
+      <geom mesh="mug_cup_collision_19" class="collision"/>
+      <geom mesh="mug_cup_collision_20" class="collision"/>
+      <geom mesh="mug_cup_collision_21" class="collision"/>
+      <geom mesh="mug_cup_collision_22" class="collision"/>
+      <geom mesh="mug_cup_collision_23" class="collision"/>
+      <geom mesh="mug_cup_collision_24" class="collision"/>
+      <geom mesh="mug_cup_collision_25" class="collision"/>
+      <geom mesh="mug_cup_collision_26" class="collision"/>
+      <geom mesh="mug_cup_collision_27" class="collision"/>
+      <geom mesh="mug_cup_collision_28" class="collision"/>
+      <geom mesh="mug_cup_collision_29" class="collision"/>
+      <geom mesh="mug_cup_collision_30" class="collision"/>
+      <geom mesh="mug_cup_collision_31" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

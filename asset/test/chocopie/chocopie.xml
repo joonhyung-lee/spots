@@ -1,0 +1,17 @@
+<mujoco model="chocopie">
+
+  <asset>
+    <texture type="2d" name="chocopie" file="chocopie.png"/>
+    <material name="chocopie_mat" texture="chocopie" specular="1.0" shininess="0.0"/>
+    <mesh file="chocopie.obj"/>
+    <mesh file="chocopie_collision_0.obj"/>
+  </asset>
+  <worldbody>
+    <body name="chocopie">
+      <freejoint/>
+      <geom material="chocopie_mat" mesh="chocopie" class="visual"/>
+      <geom mesh="chocopie_collision_0" class="collision"/>
+      <geom fromto="0.0 0.0 0.028  0.0 0.0 -0.028" size="0.105 0.11" type="box" rgba="0.5 0.56 0.43 0" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,22 @@
+<mujoco model="wine">
+  <asset>
+    <mesh name="obj_wine" file="./wine_glass.stl" scale="2.0 2.0 1.15"/>
+  </asset>
+  <worldbody>
+    <body name="obj_wine_01">
+      <joint name="obj_wine_01_joint" type="free" />
+      <geom name="obj_wine_01_geom" type="mesh" size="0" condim="4" density="567" mesh="obj_wine" rgba="0.9 0.9 0.9 0.4"/>
+    </body>
+
+    <body name="obj_wine_02">
+      <joint name="obj_wine_02_joint" type="free" />
+      <geom name="obj_wine_02_geom" type="mesh" size="0" condim="4" density="567" mesh="obj_wine" rgba="0.9 0.9 0.9 0.4"/>
+    </body>
+
+    <body name="obj_wine_03">
+      <joint name="obj_wine_03_joint" type="free" />
+      <geom name="obj_wine_03_geom" type="mesh" size="0" condim="4" density="567" mesh="obj_wine" rgba="0.9 0.9 0.9 0.4"/>
+    </body>
+
+  </worldbody>
+</mujoco>
