@@ -44,29 +44,31 @@ The task is **To place the dish into a dish-rack**. There are three types of dis
 
 **Execution Files (Jupyter Notebooks)**:
 You can find the execution code [here](https://github.com/joonhyung-lee/spots/tree/main/demo/scene/kitchen_with_dish):
-- [Black-dish-rack.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/kitchen_with_dish/kitchen_rack_black.ipynb)
-- [White-dish-rack.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/kitchen_with_dish/kitchen_rack_white.ipynb)
-- [Small-dish-rack.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/kitchen_with_dish/kitchen_rack_small.ipynb)
+- [Black-dish-rack.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/kitchen_with_dish/kitchen_rack_black_method.ipynb)
+- [White-dish-rack.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/kitchen_with_dish/kitchen_rack_white_method.ipynb)
+- [Small-dish-rack.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/kitchen_with_dish/kitchen_rack_small_method.ipynb)
 
 ### B) Bookshelf Scene
 The task is **To place the book into a bookshelf**.
 
 **Environment File (MJCF)**:
-- [scene_office_bookshelf.xml](https://github.com/joonhyung-lee/spots/blob/main/asset/scene_office_bookshelf.xml)
+- [scene_office_bookshelf.xml](https://github.com/joonhyung-lee/spots/blob/main/asset/scene_office_bookshelf_small.xml)
+- [scene_office_bookshelf_genre.xml](https://github.com/joonhyung-lee/spots/blob/main/asset/scene_office_bookshelf.xml)
 
 **Execution File (Jupyter Notebook)**:
-You can find the execution code [here](https://github.com/joonhyung-lee/spots/tree/main/demo/scene/office_booksehlf):
-- [office_bookshelf.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/office_booksehlf/office_bookshelf.ipynb)
+You can find the execution code [here](https://github.com/joonhyung-lee/spots/tree/main/demo/scene/office_bookshelf):
+- [office_bookshelf.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/office_bookshelf/office_bookshelf_dense_method.ipynb)
+- [office_bookshelf_genre.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/office_bookshelf/office_bookshelf_genre_method.ipynb)
 
 ### C) Category Scene
 The task is **To place the object into a shelf**.
 
 **Environment File (MJCF)**:
-- [scene_office_bookshelf.xml](https://github.com/joonhyung-lee/spots/blob/main/asset/scene_office_bookshelf.xml)
+- [scene_category.xml](https://github.com/joonhyung-lee/spots/blob/main/asset/scene_realworld_w_shelf_category_ver2.xml)
 
 **Execution File (Jupyter Notebook)**:
-You can find the execution code [here](https://github.com/joonhyung-lee/spots/tree/main/demo/scene/office_booksehlf):
-- [office_bookshelf.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/office_booksehlf/office_bookshelf.ipynb)
+You can find the execution code [here](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/realworld_v2/category_w_shelf.ipynb):
+- [cateogry.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/realworld_v2/category_w_shelf.ipynb)
 - 
 ### Utility Code
 - [mujoco_parser.py](https://github.com/joonhyung-lee/spots/blob/main/utils/mujoco_parser.py): Contains all functions related to the MuJoCo engine
