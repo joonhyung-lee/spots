@@ -16,42 +16,53 @@ Official Implementation of the paper ***SPOTS: Stable Placement of Objects with 
 ### Dish Rack Scene
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
-    <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-white.gif" width="100%" alt="Small Gap Dish Rack">
+    <div style="flex: 1; margin: 0 10px;">
         <p><strong>Small Gap Dish Rack</strong></p>
+        <video width="100%" controls>
+            <source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-white.mp4" type="video/mp4">
+        </video>
     </div>
-    <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-black.gif" width="100%" alt="Medium Gap Dish Rack">
+    <div style="flex: 1; margin: 0 10px;">
         <p><strong>Medium Gap Dish Rack</strong></p>
+        <video width="100%" controls>
+            <source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-black.mp4" type="video/mp4">
+        </video>
     </div>
-    <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-small.gif" width="100%" alt="Large Gap Dish Rack">
+    <div style="flex: 1; margin: 0 10px;">
         <p><strong>Large Gap Dish Rack</strong></p>
+        <video width="100%" controls>
+            <source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-kitchen-small.mp4" type="video/mp4">
+        </video>
     </div>
 </div>
 
 ### Bookshelf Scene
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
-    <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-bookshelf-two-tiered.gif" width="100%" alt="Two-Tiered Bookshelf">
+    <div style="flex: 1; margin: 0 10px;">
         <p><strong>Two-Tiered Bookshelf</strong></p>
+        <video width="100%" controls>
+            <source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-bookshelf-two-tiered.mp4" type="video/mp4">
+        </video>
     </div>
-    <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-bookshelf-three-tiered.gif" width="100%" alt="Three-Tiered Bookshelf">
+    <div style="flex: 1; margin: 0 10px;">
         <p><strong>Three-Tiered Bookshelf</strong></p>
+        <video width="100%" controls>
+            <source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-bookshelf-three-tiered.mp4" type="video/mp4">
+        </video>
     </div>
 </div>
 
 ### Category Scene
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
-    <div style="flex: 1; text-align: center; margin: 0 10px;">
-        <img src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-shelf-three-tiered.gif" width="100%" alt="Category">
+<div style="display: flex; justify-content: center; margin-bottom: 20px;">
+    <div style="flex: 1; max-width: 600px; margin: 0 10px;">
         <p><strong>Category</strong></p>
+        <video width="100%" controls>
+            <source src="https://raw.githubusercontent.com/joonhyung-lee/spots/main/asset/videos/scene-shelf-three-tiered.mp4" type="video/mp4">
+        </video>
     </div>
 </div>
-
 
 # Code Explanation
 We have 3 Scenarios in this repository. Each scene consists of MJCF (MuJoCo XML) files for environment configuration and Jupyter notebooks for execution.
