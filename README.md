@@ -69,7 +69,7 @@ The task is **To place the object into a shelf**.
 **Execution File (Jupyter Notebook)**:
 You can find the execution code [here](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/realworld_v2/category_w_shelf.ipynb):
 - [cateogry.ipynb](https://github.com/joonhyung-lee/spots/blob/main/demo/scene/realworld_v2/category_w_shelf.ipynb)
-- 
+
 ### Utility Code
 - [mujoco_parser.py](https://github.com/joonhyung-lee/spots/blob/main/utils/mujoco_parser.py): Contains all functions related to the MuJoCo engine
 - [util.py](https://github.com/joonhyung-lee/spots/blob/main/utils/util.py): Contains helper functions and utilities
