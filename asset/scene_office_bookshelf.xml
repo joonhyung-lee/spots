@@ -1,0 +1,35 @@
+<mujoco model="ur5e scene">
+    <option>
+        <flag multiccd="enable"/>
+    </option>
+    <default>
+      <default class="visual">
+        <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+      </default>
+      <default class="collision">
+        <geom group="3" type="mesh" contype="1" conaffinity="1"/>
+      </default>
+    </default>
+  
+    <!-- UR5e -->
+    <include file="./ur5e/ur5e_rg2_d435i.xml" />
+
+    <!-- Base table -->
+    <include file="./realworld/base_table.xml" />
+    <!-- Object table -->
+    <include file="./realworld/avoiding_table.xml" />
+    <include file="./realworld/side_tables.xml" />
+  
+    <!-- Realistic objects -->
+    <include file="./realistic_object/book.xml" />
+    <include file="./realistic_object/mug_cup.xml" />
+  
+    <!-- Cylinder objects -->
+    <include file="./realworld/shelf.xml" />
+  
+    <!-- Floor and Sky -->
+    <include file="./object/obj_glass.xml" />
+    <include file="./object/floor_sky.xml" />
+  
+  </mujoco>
+  
