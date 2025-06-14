@@ -1,5 +1,7 @@
 # SPOTS: Stable Placement of Objects with Reasoning in Semi-Autonomous Teleoperation Systems
 
+> ⚠️ **Note**: Before starting, you need to add your OpenAI API key in `/key/my_key.txt`. This is required for `the receptacle reasoining process`.
+
 ## News
 
 We are happy to announce that **SPOTS** has been accepted to ICRA2024! 😆🎉🎉
