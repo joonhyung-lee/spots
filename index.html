@@ -4,23 +4,26 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="`SPOTS` project page">
-  <meta property="og:title" content="SPOTS: Stable Placement of Objects with Reasoning in Semi-Autonomous Teleoperation Systems"/>
-  <meta property="og:description" content="details about the paper `SPOTS`"/>
+  <meta name="description" content="ICRA 2024. Combining simulation-driven physical stability verification with LLM-based receptacle reasoning to place objects both stably and sensibly.">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SPOTS: Stable Placement of Objects with Reasoning in Semi-Autonomous Teleoperation Systems" />
+  <meta property="og:description" content="ICRA 2024. Combining simulation-driven physical stability verification with LLM-based receptacle reasoning to place objects both stably and sensibly." />
   <meta property="og:url" content="https://joonhyung-lee.github.io/spots/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="assets/images/fig_overview.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <meta property="og:image" content="https://joonhyung-lee.github.io/spots/assets/images/og_banner.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="SPOTS pipeline: a real-world scene is reconstructed in simulation, checked for physical stability and contextual reasonableness, then placement candidates are shown to the user." />
 
 
   <meta name="twitter:title" content="SPOTS: Stable Placement of Objects with Reasoning in Semi-Autonomous Teleoperation Systems">
-  <meta name="twitter:description" content="SPOTS: Stable Placement of Objects with Reasoning in Semi-Autonomous Teleoperation Systems">
+  <meta name="twitter:description" content="ICRA 2024. Combining simulation-driven physical stability verification with LLM-based receptacle reasoning to place objects both stably and sensibly.">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="assets/images/your_twitter_banner_image.png">
+  <meta name="twitter:image" content="https://joonhyung-lee.github.io/spots/assets/images/og_banner.png">
+  <meta name="twitter:image:alt" content="SPOTS pipeline: a real-world scene is reconstructed in simulation, checked for physical stability and contextual reasonableness, then placement candidates are shown to the user.">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="robot manipulation, object placement, teleoperation, large language models, physical reasoning, ICRA 2024, SPOTS">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -223,7 +226,7 @@
       <div id="framework">
         <!-- Content here -->
           <!-- Your image here -->
-          <img src="assets/images/fig_overview.png" alt="MY ALT TEXT"/>
+          <img src="assets/images/fig_overview.png" alt="Overall pipeline of the SPOTS teleoperation framework: stability verification and receptacle reasoning produce recommended placement coordinates."/>
           <h2 class="content has-text-justified" style="text-align: left;">
             Overall pipeline of the proposed teleoperation framework. With the scene input, the system checks the physical stability of the correct placement. Then, the system verifies the contextually reasonable positions based on the receptacle reasoning step, considering the scene's context, and recommends the coordinates obtained from both processes to the user.
           </h2>
@@ -434,12 +437,12 @@
     <div class="container">
       <h2 class="title is-3">Results</h2>
       <div id="Results">        
-        <img src="assets/images/fig_stability_check.png" alt="MY ALT TEXT" style="width: 100%;">
+        <img src="assets/images/fig_stability_check.png" alt="Results of the stability verification module across all experiment environments, showing the low ratio of stable placement coordinates." style="width: 100%;">
         <h2 class="content has-text-justified" style="text-align: left;">
           Result of stability verification module: Performed for all environments in our experiments, not including reasoning module. The ratio of stable coordinates to the total number of coordinates is very low. This indicates that the task we are assuming is physically difficult to be stably located.
         </h2>
 
-        <img src="assets/images/fig_sim.png" alt="MY ALT TEXT" style="width: 100%;">
+        <img src="assets/images/fig_sim.png" alt="Simulation comparison of SPOTS against LLM-GROP, Code-as-Policies and Language-to-Reward baselines." style="width: 100%;">
           <p style="margin-bottom: 8px;">
             We compare <strong>SPOTS</strong> to three prior methods: 
             <strong>LLM-GROP</strong><a href="#footnote-llmgrop"> [1]</a>, 
